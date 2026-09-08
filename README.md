@@ -7,7 +7,7 @@
 Un éditeur visuel pour créer des visual novels, composer leur interface et préparer leur distribution.
 
 [![Distributions](https://img.shields.io/badge/distribution-officielle-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases)
-[![Statut](https://img.shields.io/badge/statut-premi%C3%A8re%20publication%20en%20pr%C3%A9paration-555555?style=flat-square)](#télécharger)
+[![Version](https://img.shields.io/badge/version-0.2.1-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.1)
 
 [Télécharger](#télécharger) · [Installer](#installation) · [Mises à jour](#mises-à-jour) · [Vérifier un fichier](#intégrité-des-téléchargements) · [Soutenir](https://ko-fi.com/rustvn)
 
@@ -53,14 +53,14 @@ Le mode Design présente la page du jeu au centre, ses pages à gauche et les pr
 
 ## Télécharger
 
-**La première distribution publique est en préparation. Aucun installateur n’est encore disponible dans ce dépôt.**
+**La version 0.2.1 est disponible pour Linux x86_64.** Consultez ses [notes et prérequis](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.1) avant de l’installer.
 
-Les fichiers validés seront publiés exclusivement dans les [Releases GitHub](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases).
+Les fichiers sont publiés dans les [Releases GitHub](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases).
 
-| Plateforme prévue | Format | Nom du téléchargement |
+| Plateforme | Format | Disponibilité |
 | :--- | :--- | :--- |
-| Linux x86_64 | Application portable | `rust-VN-Editor-x86_64.AppImage` |
-| Windows x86_64 | Archive à extraire | `rust-VN-Editor-windows-x86_64.zip` |
+| Linux x86_64 | AppImage | [Télécharger la version 0.2.1](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.1/rust-VN-Editor-x86_64.AppImage) |
+| Windows x86_64 | Archive à extraire prévue | Non publiée ; validation native nécessaire |
 
 Chaque publication indiquera sa configuration minimale et son niveau de validation. Une AppImage ne garantit pas la compatibilité avec toutes les distributions Linux ; un exécutable Windows compilé n’est pas nécessairement validé sur une machine Windows.
 
@@ -68,7 +68,7 @@ Chaque publication indiquera sa configuration minimale et son niveau de validati
 
 ## Installation
 
-Les instructions suivantes s’appliqueront lorsque les paquets seront disponibles.
+Le paquet Linux actuel requiert glibc 2.39 et les bibliothèques système de bureau décrites dans les notes de version. Il a été vérifié sur Pop!_OS / COSMIC, pas sur toutes les distributions Linux.
 
 ### Linux · AppImage
 
@@ -84,9 +84,11 @@ chmod +x rust-VN-Editor-x86_64.AppImage
 ./rust-VN-Editor-x86_64.AppImage
 ```
 
-La prise en charge de FUSE ou d’un lancement sans FUSE sera précisée dans les notes de distribution.
+Sans FUSE, lancez `./rust-VN-Editor-x86_64.AppImage --appimage-extract-and-run`. Le CLI inclus est accessible avec `./rust-VN-Editor-x86_64.AppImage --appimage-extract-and-run --cli --help`.
 
 ### Windows · Archive portable
+
+Instructions prévues pour une future publication Windows ; aucune archive Windows n’est actuellement disponible.
 
 1. Téléchargez l’archive Windows depuis une release.
 2. Extrayez **tout son contenu** dans un dossier dédié.
@@ -98,14 +100,18 @@ Conservez les ressources et les autres exécutables à côté de l’éditeur : 
 
 Ce dépôt est le canal public prévu pour les mises à jour de rust-VN Editor. Il permet de distribuer l’application sans donner accès aux dépôts de développement et sans demander un compte GitHub aux utilisateurs.
 
-Le mécanisme intégré est en préparation. Il est conçu pour :
+Depuis la version 0.2.1, le bouton **Mises à jour** permet de :
 
 - rechercher les nouvelles versions stables publiées ici ;
 - proposer un téléchargement correspondant à la plateforme ;
 - vérifier l’intégrité du fichier avant son utilisation ;
 - laisser l’utilisateur décider du téléchargement et de l’installation.
 
-**L’intégration sera annoncée dans les notes de la première version qui la contient.** En attendant, vous pourrez télécharger les versions manuellement depuis les Releases. Les anciennes publications resteront consultables pour identifier les changements et retrouver les fichiers disponibles.
+La vérification au démarrage est facultative et désactivée initialement. Elle n’envoie ni projet ni sauvegarde : seuls les échanges nécessaires avec GitHub sont effectués. Les téléchargements ne démarrent jamais automatiquement.
+
+Pour une AppImage, **Installer l’AppImage** demande une confirmation, revérifie le fichier et conserve l’ancienne version avec le suffixe `.previous`. Enregistrez votre travail, fermez puis relancez l’application. Pour revenir en arrière, fermez l’éditeur et lancez cette copie conservée. Le passage réel d’une AppImage 0.2.0 de test vers la publication 0.2.1 a été vérifié, y compris l’annulation et la relance.
+
+Depuis une ancienne installation non-AppImage, téléchargez puis lancez la nouvelle AppImage séparément. Les futures archives Windows devront être extraites dans un nouveau dossier ; le remplacement automatique des exécutables Windows n’est pas proposé.
 
 Gardez vos projets et sauvegardes dans un dossier distinct de celui de l’application. Avant un changement de version, enregistrez votre travail et conservez une copie de vos projets importants.
 

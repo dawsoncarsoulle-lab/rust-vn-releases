@@ -9,7 +9,7 @@ Un éditeur visuel pour créer des visual novels, composer leur interface et pr�
 [![Distributions](https://img.shields.io/badge/distribution-officielle-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases)
 [![Statut](https://img.shields.io/badge/statut-premi%C3%A8re%20publication%20en%20pr%C3%A9paration-555555?style=flat-square)](#télécharger)
 
-[Télécharger](#télécharger) · [Installer](#installation) · [Mises à jour](#mises-à-jour) · [Vérifier un fichier](#intégrité-des-téléchargements)
+[Télécharger](#télécharger) · [Installer](#installation) · [Mises à jour](#mises-à-jour) · [Vérifier un fichier](#intégrité-des-téléchargements) · [Soutenir](https://ko-fi.com/rustvn)
 
 </div>
 
@@ -132,6 +132,12 @@ Get-FileHash .\rust-VN-Editor-windows-x86_64.zip -Algorithm SHA256
 Comparez l’empreinte affichée avec la ligne correspondante dans `SHA256SUMS`.
 
 Une empreinte vérifie l’intégrité ; elle ne remplace pas une signature d’éditeur. Utilisez toujours les fichiers et les empreintes de la même publication officielle.
+
+## Soutenir le développement
+
+Vous appréciez rust-VN et souhaitez accompagner son développement ? Vous pouvez apporter un soutien volontaire sur [Ko-fi — rustvn](https://ko-fi.com/rustvn).
+
+Chaque contribution aide à consacrer du temps aux améliorations, aux corrections et à la documentation. Le soutien est facultatif et ne constitue pas l’achat d’une fonctionnalité ou la promesse d’une date de livraison. Partager le projet et signaler des bugs reproductibles sont aussi des façons précieuses de contribuer.
 
 ## À propos de ce dépôt
 

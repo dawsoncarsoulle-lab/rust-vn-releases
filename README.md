@@ -15,6 +15,10 @@ Un éditeur visuel pour créer des visual novels, composer leur interface et pr�
 
 ---
 
+![Éditeur Blueprint de rust-VN : un premier dialogue relié à l’entrée du graphe.](assets/blueprints.png)
+
+<p align="center"><em>Une histoire lisible sous forme de nœuds : point de départ, personnage et dialogue.</em></p>
+
 ## Créer, personnaliser, partager
 
 rust-VN Editor réunit la création narrative et la composition d’interface dans un même environnement. Les graphes Blueprint permettent d’organiser les dialogues, les choix et les branches de l’histoire ; l’éditeur visuel d’interface permet de travailler sur les menus et leur présentation.
@@ -30,6 +34,22 @@ Le projet s’adresse aussi bien aux auteurs qui préfèrent une approche visuel
 | **Distribution** | Préparer une version du jeu à partager, selon les cibles disponibles dans la version installée. |
 
 > L’application est en développement. Les notes de chaque version précisent les fonctionnalités livrées, les plateformes vérifiées et les limites connues. Elles font référence pour le paquet téléchargé.
+
+## L’éditeur en images
+
+### Un point de départ pour chaque histoire
+
+L’accueil rassemble l’ouverture des projets et la création d’une nouvelle histoire.
+
+![Accueil de rust-VN Editor avec les commandes Nouveau projet, Mes projets et Ouvrir.](assets/accueil.png)
+
+### Une interface à composer visuellement
+
+Le mode Design présente la page du jeu au centre, ses pages à gauche et les propriétés de présentation à droite. Ici, un menu principal simple utilise le thème Science-fiction.
+
+![Mode Design : composition du menu principal et inspecteur des styles.](assets/interface.png)
+
+<sub>Captures réelles de l’application de développement, réalisées sur un projet de test. Le suffixe « remote » identifie l’instance de capture. Les images ne sont pas des maquettes et peuvent différer des prochaines versions.</sub>
 
 ## Télécharger
 

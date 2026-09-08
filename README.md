@@ -53,14 +53,14 @@ Le mode Design présente la page du jeu au centre, ses pages à gauche et les pr
 
 ## Télécharger
 
-**La version 0.2.1 est disponible pour Linux x86_64.** Consultez ses [notes et prérequis](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.1) avant de l’installer.
+**La version 0.2.1 est disponible pour Linux x86_64 et, à titre expérimental, Windows x86_64.** Consultez ses [notes et prérequis](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.1) avant de l’installer.
 
 Les fichiers sont publiés dans les [Releases GitHub](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases).
 
 | Plateforme | Format | Disponibilité |
 | :--- | :--- | :--- |
 | Linux x86_64 | AppImage | [Télécharger la version 0.2.1](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.1/rust-VN-Editor-x86_64.AppImage) |
-| Windows x86_64 | Archive à extraire prévue | Non publiée ; validation native nécessaire |
+| Windows x86_64 | ZIP portable expérimental | [Télécharger la version 0.2.1](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.1/rust-VN-Editor-windows-x86_64.zip) |
 
 Chaque publication indiquera sa configuration minimale et son niveau de validation. Une AppImage ne garantit pas la compatibilité avec toutes les distributions Linux ; un exécutable Windows compilé n’est pas nécessairement validé sur une machine Windows.
 
@@ -88,7 +88,7 @@ Sans FUSE, lancez `./rust-VN-Editor-x86_64.AppImage --appimage-extract-and-run`.
 
 ### Windows · Archive portable
 
-Instructions prévues pour une future publication Windows ; aucune archive Windows n’est actuellement disponible.
+**Version expérimentale, compilée et contrôlée depuis Linux ; non testée sur une session Windows.** Cible prévue : Windows 10/11 x86_64 avec un pilote Direct3D 11. L’application n’est pas signée. Ne désactivez pas votre antivirus pour l’exécuter.
 
 1. Téléchargez l’archive Windows depuis une release.
 2. Extrayez **tout son contenu** dans un dossier dédié.
@@ -135,7 +135,7 @@ Vérifiez que le nom de votre AppImage apparaît avec le résultat `OK`.
 Get-FileHash .\rust-VN-Editor-windows-x86_64.zip -Algorithm SHA256
 ```
 
-Comparez l’empreinte affichée avec la ligne correspondante dans `SHA256SUMS`.
+Comparez l’empreinte affichée avec la ligne correspondante dans `SHA256SUMS-windows`, joint à la même release. Le fichier `SHA256SUMS` d’origine concerne l’AppImage Linux.
 
 Une empreinte vérifie l’intégrité ; elle ne remplace pas une signature d’éditeur. Utilisez toujours les fichiers et les empreintes de la même publication officielle.
 

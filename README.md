@@ -7,7 +7,7 @@
 Un éditeur visuel pour créer des visual novels, composer leur interface et préparer leur distribution.
 
 [![Distributions](https://img.shields.io/badge/distribution-officielle-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases)
-[![Version](https://img.shields.io/badge/version-0.2.2-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.2)
+[![Version](https://img.shields.io/badge/version-0.2.3-087EA4?style=flat-square)](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.3)
 
 [Télécharger](#télécharger) · [Installer](#installation) · [Mises à jour](#mises-à-jour) · [Vérifier un fichier](#intégrité-des-téléchargements) · [Soutenir](https://ko-fi.com/rustvn)
 
@@ -53,14 +53,16 @@ Le mode Design présente la page du jeu au centre, ses pages à gauche et les pr
 
 ## Télécharger
 
-**La version 0.2.2 est disponible pour Linux x86_64 et, à titre expérimental, Windows x86_64.** Consultez ses [notes et prérequis](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.2) avant de l’installer.
+**La version 0.2.3 est disponible pour Linux x86_64 et, à titre expérimental, Windows x86_64.** Consultez ses [notes et prérequis](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/tag/v0.2.3) avant de l’installer.
+
+Elle inclut **Les lettres de l'aube / Letters at Dawn**, un exemple complet français/anglais avec menus personnalisés, ressources incluses et trois dénouements. Choisissez **Projet exemple** pour le découvrir ; **Projet vide** reste vide.
 
 Les fichiers sont publiés dans les [Releases GitHub](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases).
 
 | Plateforme | Format | Disponibilité |
 | :--- | :--- | :--- |
-| Linux x86_64 | AppImage | [Télécharger la version 0.2.2](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.2/rust-VN-Editor-x86_64.AppImage) |
-| Windows x86_64 | ZIP portable expérimental | [Télécharger la version 0.2.2](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.2/rust-VN-Editor-windows-x86_64.zip) |
+| Linux x86_64 | AppImage | [Télécharger la version 0.2.3](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.3/rust-VN-Editor-x86_64.AppImage) |
+| Windows x86_64 | ZIP portable expérimental | [Télécharger la version 0.2.3](https://github.com/dawsoncarsoulle-lab/rust-vn-releases/releases/download/v0.2.3/rust-VN-Editor-windows-x86_64.zip) |
 
 Chaque publication indiquera sa configuration minimale et son niveau de validation. Une AppImage ne garantit pas la compatibilité avec toutes les distributions Linux ; un exécutable Windows compilé n’est pas nécessairement validé sur une machine Windows.
 

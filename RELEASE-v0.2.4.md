@@ -1,8 +1,9 @@
 # rust-VN 0.2.4 — bêta publique Linux et Windows
 
-Publication en préversion à la demande de Dawson, le 23 septembre 2026.
-Cette version est téléchargeable publiquement, mais n'est pas une version stable
-ni une validation complète Linux/Windows. Le canal de mise à jour reste sur 0.2.3.
+Release principale (« Latest ») à la demande de Dawson, le 23 septembre 2026.
+Cette bêta est téléchargeable publiquement et proposée par le canal de mise à
+jour. Ce statut n'est pas une validation complète Linux/Windows ; les limites
+ci-dessous restent applicables.
 
 ## Corrections
 
@@ -50,9 +51,9 @@ Moteur desktop/Web : `98d6a1c9497acfebddd52bd38d23bb5e2946147c`.
 
 ## English
 
-Public testing prerelease, not a stable or fully qualified release. Includes
+Public beta marked Latest, not a fully qualified stable release. Includes
 editor/game close fixes, project-wide references and the redesigned label picker.
 Linux package checks passed; native Windows retesting of the shutdown fix and
 other qualification steps remain pending. Extract Windows into a fresh folder,
 keep projects elsewhere, and do not disable antivirus protection. Re-export
-games to include the corrected engine. Stable updater remains on 0.2.3.
+games to include the corrected engine. The updater now offers 0.2.4.

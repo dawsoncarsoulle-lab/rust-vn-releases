@@ -1,4 +1,22 @@
-# rust-VN 0.2.4 — correctif Windows du 23 septembre 2026
+# rust-VN 0.2.4 — correctif Linux et Windows du 23 septembre 2026
+
+## Paquets actuels — Linux et Windows corrigés
+
+Les deux paquets embarquent maintenant le moteur corrigé
+`98d6a1c9497acfebddd52bd38d23bb5e2946147c`, y compris le moteur Web.
+Éditeur : `98135295e9e3da0364c21888c92aa752bc914ff2`.
+
+- Linux AppImage : `739c71a4781c4d2751738a164b046512adcd10e5d72e7f8a19ac0b652d01046c`.
+- Windows ZIP : `cb1ec801fabd0fb1a2cb0d2a366c5a9d81c9e7b115e3774de4b0d61240149e21`.
+
+Les indications ci-dessous sur une AppImage non corrigée sont historiques.
+La release reste en brouillon ; les validations restantes ne sont pas levées.
+
+AppImage exacte vérifiée sur Pop!_OS : accueil, CLI et fermeture de l'éditeur ;
+fermeture du moteur embarqué pendant dialogue et choix sous XWayland, sans
+panic et avec sortie 0. Voir [résultats et captures](validation/20260923-linux/RESULTATS.md).
+
+## Historique de la mise à jour Windows
 
 ## Mise à jour du 23 septembre — à lire en priorité
 

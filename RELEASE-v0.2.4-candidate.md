@@ -1,4 +1,28 @@
-# rust-VN 0.2.4 — candidate du 22 septembre 2026
+# rust-VN 0.2.4 — correctif Windows du 23 septembre 2026
+
+## Mise à jour du 23 septembre — à lire en priorité
+
+Le ZIP Windows a été remplacé après le rapport de validation Windows natif
+fourni par Dawson. Le moteur desktop et Web inclus contient le correctif de
+fermeture : le rendu ne suppose plus que la fenêtre existe au dernier cycle.
+Deux tests exécutant les vrais systèmes de rendu après destruction de fenêtre
+passent ; les suites rvn_bevy, rvn_core et rvn_ui et les constructions Linux,
+Windows et Web passent. Le nouveau paquet reste à retester sur Windows natif.
+
+- Éditeur inchangé : `98135295e9e3da0364c21888c92aa752bc914ff2`.
+- Moteur du nouveau ZIP : `98d6a1c9497acfebddd52bd38d23bb5e2946147c`.
+- SHA-256 Windows : `cb1ec801fabd0fb1a2cb0d2a366c5a9d81c9e7b115e3774de4b0d61240149e21`.
+- **L'AppImage Linux ci-dessous reste celle du 22 septembre, sans ce correctif.**
+
+Extraire le nouveau ZIP dans un dossier neuf. Tester la croix et Alt+F4 pendant
+un dialogue et un choix, dans l'aperçu puis dans un **nouvel export desktop**.
+Les anciens jeux exportés ne sont pas mis à jour automatiquement.
+Le rapport Windows confirme des essais partiels sur l'ancien paquet ; cela
+ne certifie pas ce nouveau paquet. Les autres anomalies et validations restent
+ouvertes, notamment l'écriture progressive après chargement et les traductions.
+La release reste en brouillon et la version publique reste 0.2.3.
+
+## Historique de la candidate du 22 septembre (empreintes anciennes)
 
 **Brouillon de validation, non publié.** Les nouveaux paquets Linux et Windows
 remplacent ceux du 21 septembre. Les validations liées aux anciennes empreintes

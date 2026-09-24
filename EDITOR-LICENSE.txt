@@ -1,0 +1,38 @@
+rust-VN Editor — Proprietary Free-Use License
+Version 1, 24 September 2026
+Copyright (c) 2026 Dawson Carsoulle.
+
+1. Scope
+This license covers only original rust-VN Editor material first distributed
+under this license, beginning with version 0.2.5. It does not replace licenses
+of Makepad, the rust-VN engine, third-party libraries, fonts, example media or
+material previously distributed under MIT or another license.
+All permissions already granted for earlier copies remain unaffected.
+
+2. Use
+You may download and use the official editor, free of charge, for personal,
+educational and commercial game creation. You may keep personal backup copies.
+
+3. Restrictions
+Except as permitted by applicable law or a separate applicable license, you may
+not redistribute, sublicense, sell copies of, or distribute modified versions
+of the proprietary material without the copyright holder's written permission.
+These restrictions do not limit rights granted by third-party or prior licenses.
+
+4. Created games
+You retain ownership of your original content. You may distribute or sell games
+created with the editor without royalties to rust-VN. Exported runtimes and
+included assets remain subject to their respective licenses and notice
+requirements. No editor source code or public project disclosure is required
+merely because you create a game using this editor.
+
+5. Warranty
+To the extent permitted by applicable law, the proprietary material is provided
+AS IS, without warranty, and the copyright holder is not liable for damages
+arising from its use. Mandatory statutory rights are unaffected.
+
+6. Support
+Financial support is optional and does not guarantee features, deadlines or
+support services. Rights not expressly granted here are reserved.
+
+Separate engine and third-party notices accompany the distribution.

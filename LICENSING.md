@@ -2,7 +2,7 @@
 
 ## Engine
 
-The rust-VN engine is available under the MIT license. Existing MIT OR Apache-2.0 grants are preserved; the Apache notice remains available for previously dual-licensed code. Third-party components keep their licenses.
+The [rust-VN engine source](https://github.com/dawsoncarsoulle-lab/rust-vn-engine) is public under the [MIT license](https://github.com/dawsoncarsoulle-lab/rust-vn-engine/blob/main/LICENSE-MIT). Existing MIT OR Apache-2.0 grants are preserved; the Apache notice remains available for previously dual-licensed code. Third-party components keep their licenses.
 
 ## Editor
 

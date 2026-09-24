@@ -36,7 +36,7 @@ Known gaps include native Windows retesting of the latest package, a separate cl
 
 ## Licensing
 
-The engine and the editor have different licenses. See [licensing and game distribution](LICENSING.md). Example media retain their own licenses and attribution requirements. You retain ownership of your original stories and assets.
+The [engine source](https://github.com/dawsoncarsoulle-lab/rust-vn-engine) is public under MIT; the current editor source remains private with separate terms. See [licensing and game distribution](LICENSING.md). Example media retain their own licenses and attribution requirements. You retain ownership of your original stories and assets.
 
 ## Feedback
 

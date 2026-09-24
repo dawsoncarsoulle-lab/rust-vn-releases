@@ -6,7 +6,7 @@ The [rust-VN engine source](https://github.com/dawsoncarsoulle-lab/rust-vn-engin
 
 ## Editor
 
-Version 0.2.5 is in preparation, not yet published. Its planned terms for new original proprietary editor material are in [EDITOR-LICENSE.txt](EDITOR-LICENSE.txt). The Makepad framework, engine and other third-party software are **not** relicensed as proprietary.
+Version 0.2.5 terms for new original proprietary editor material are in [EDITOR-LICENSE.txt](EDITOR-LICENSE.txt). The Makepad framework, engine and other third-party software are **not** relicensed as proprietary. Packages include font/dependency notices, and game exports retain engine/runtime notices. Original MPL dependency sources are supplied alongside the installers.
 
 Earlier versions included MIT notices. Nothing in the new license revokes permissions already granted for those copies or covered code. This is not a claim of exclusive rights over the whole historical codebase.
 

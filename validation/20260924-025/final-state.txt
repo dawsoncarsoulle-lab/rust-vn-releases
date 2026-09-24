@@ -1,0 +1,1 @@
+state=TitleScreen pc=220 choices=4 interaction=Ok(None) clicked=Some(88) buttons=[]

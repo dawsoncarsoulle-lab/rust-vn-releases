@@ -22,7 +22,7 @@ Create visual novels with visual story graphs and customizable game menus.
 ![Project launcher](assets/accueil.png)
 ![Menu designer](assets/interface.png)
 
-Real Linux captures taken on 24 September 2026 with the 0.2.5 development build, not concept art. The graph is a simplified demonstration assembled from the example; the menu is the included French example with the editor UI set to English. The `remote` suffix identifies the isolated capture instance. Version 0.2.5 is still in preparation; these images are not a claim that it has been published.
+Real Linux captures taken on 24 September 2026 with the 0.2.5 editor, not concept art. The graph is a simplified demonstration assembled from the example; the menu is the included French example with the editor UI set to English. The `remote` suffix identifies the isolated capture instance. See the [0.2.5 release notes](RELEASE-v0.2.5.md) and [package validation](validation/20260924-025/RESULTS.md).
 
 ## Downloads and validation
 

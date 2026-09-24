@@ -1,6 +1,6 @@
 # 0.2.5 preparation — 24 September 2026
 
-Not a published release. Version 0.2.4 and its download hashes are unchanged.
+Historical preparation record. Superseded by [0.2.5 release notes](RELEASE-v0.2.5.md) and [validation results](validation/20260924-025/RESULTS.md). Version 0.2.4 and its download hashes are unchanged.
 
 Completed:
 - Public issue tracker enabled and linked from the English README.
@@ -12,7 +12,7 @@ Completed:
 - Linux and Windows release editor builds successful; 93 editor tests and five packaging-gate tests passed.
 - Historical secret scan with Gitleaks 8.30.1 across all local refs after fetching: no findings. This is not a guarantee that no sensitive information exists.
 
-Publication hold:
+Issues tracked during preparation (see the release notes for their final status):
 - The owner approved a separate public engine repository (`rust-vn-engine`); the old development repository remains private, including its historical pull-request references. Legacy test media and media-bearing archives are excluded from the public history. The public CLI starter is text-only. The full editor example is unchanged.
 - Release packages must be rebuilt from the public engine source so their embedded CLI starter does not reintroduce old test assets. Existing 0.2.4 downloads are not retroactively changed by source cleanup.
 - Complete dependency/font license inventory and export-notice coverage still need verification before claiming a full licensing audit.
